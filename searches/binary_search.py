@@ -9,6 +9,14 @@ python3 -m doctest -v binary_search.py
 For manual testing run:
 python3 binary_search.py
 """
+
+"""
+Binary search is highly efficient because with each iteration, the search space is halved, 
+leading to a significant reduction in the number of comparisons required compared to linear 
+search. It has a time complexity of O(log n), making it ideal for searching in large sorted 
+datasets. However, it's important to note that binary search only works on sorted arrays or
+lists, and modifying the array requires the array to be re-sorted before further searches.
+"""
 from __future__ import annotations
 
 import bisect
